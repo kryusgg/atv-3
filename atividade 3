@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginação</title>
+    <style>
+        .pagination-container {
+            display: inline-block;
+            padding: 10px;
+            border: 2px solid #df0303;
+            border-radius: 5px;
+            background: rgb(0, 0, 0);
+        }
+        .pagination {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .pagination li {
+            margin: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 6px;
+            background: #ff0800;
+            color: rgb(12, 11, 11);
+            font-weight: bold;
+            border: none;
+        }
+        .pagination li:hover {
+            background: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagination-container">
+        <ul class="pagination">
+            <li>&laquo;</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>&raquo;</li>
+        </ul>
+    </div>
+</body>
+</html>
